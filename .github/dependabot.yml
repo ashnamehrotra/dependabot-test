@@ -20,4 +20,3 @@ updates:
         update-types:
         - "version-update:semver-major"
         - "version-update:semver-minor"
-        - "version-update:semver-patch"
