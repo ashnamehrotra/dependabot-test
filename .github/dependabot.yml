@@ -12,7 +12,7 @@ updates:
       interval: "daily"
 
   - package-ecosystem: docker
-    directory: "/test-only-update"
+    directory: "/test-only-patch-update"
     schedule:
       interval: "daily"
     ignore:
