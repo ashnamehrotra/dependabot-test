@@ -10,3 +10,8 @@ updates:
     directory: "/test-word-tag"
     schedule:
       interval: "daily"
+
+  - package-ecosystem: docker
+    directory: "/test-no-update"
+    schedule:
+      interval: "daily"
