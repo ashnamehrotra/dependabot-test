@@ -1,12 +1,12 @@
 version: 2
 
 updates:
-  - package-ecosystem: "docker"
+  - package-ecosystem: docker
     directory: "/test-normal-tag"
     schedule:
       interval: "daily"
 
-  - package-ecosystem: "docker"
+  - package-ecosystem: docker
     directory: "/test-word-tag"
     schedule:
       interval: "daily"
