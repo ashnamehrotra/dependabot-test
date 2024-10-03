@@ -12,6 +12,12 @@ updates:
       interval: "daily"
 
   - package-ecosystem: docker
-    directory: "/test-no-update"
+    directory: "/test-only-update"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+        - "version-update:semver-major"
+        - "version-update:semver-minor"
+        - "version-update:semver-patch"
