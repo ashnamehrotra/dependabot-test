@@ -11,6 +11,7 @@ updates:
     schedule:
       interval: "daily"
 
+# testing - only 1.21.6-patched exists right now
   - package-ecosystem: docker
     directory: "/test-only-patch-updates"
     schedule:
